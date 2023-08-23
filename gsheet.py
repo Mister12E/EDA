@@ -24,7 +24,7 @@ def retrieveData():
     # Set up Google Sheets credentials
     scope = ['https://spreadsheets.google.com/feeds',
              'https://www.googleapis.com/auth/drive']
-    credentials = ServiceAccountCredentials.from_json_keyfile_name('gsheetapi.json', scope)
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('encoded-blend-396808-93348f685010.json', scope)
 
     # Connect to Google Sheets
     client = gspread.authorize(credentials)
